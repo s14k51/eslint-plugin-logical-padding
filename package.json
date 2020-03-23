@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-logical-padding",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "Enforces padding between logical blocks of code",
   "main": "index.js",
   "license": "MIT",
@@ -10,16 +10,12 @@
   },
   "author": "s14k51 <s14k51@gmail.com>",
   "devDependencies": {
-    "eslint": "^5.16.0 || ^6.8.0",
-    "jest": "^25.1.0"
+    "eslint": "^5.16.0 || ^6.8.0"
   },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.8.0"
   },
   "engines": {
     "node": ">= 6"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
