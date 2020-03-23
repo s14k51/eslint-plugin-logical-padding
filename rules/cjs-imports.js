@@ -8,5 +8,5 @@ module.exports = [
     blankLine: "never",
     prev: "cjs-import",
     next: "cjs-import"
-  }
+  },
 ];

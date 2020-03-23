@@ -1,20 +1,20 @@
+const cjsExports = require("./rules/cjs-exports");
 const variableDeclarations = require("./rules/variable-declarations");
-const cjsImports = require('./rules/cjs-imports');
-const cjsExports = require('./rules/cjs-exports');
-const functionDeclarations = require('./rules/function-declarations');
+const cjsImports = require("./rules/cjs-imports");
+const functionDeclarations = require("./rules/function-declarations");
 
 const rules = [
-  ...cjsImports,
   ...cjsExports,
   ...variableDeclarations,
-  ...functionDeclarations
+  ...cjsImports,
+  ...functionDeclarations,
 ];
 
 function configure(type) {
   return {
     env: {
       es6: true,
-      node: true
+      node: true,
     },
     rules: {
       "padding-line-between-statements": [
@@ -28,6 +28,6 @@ function configure(type) {
 module.exports = {
   configs: {
     warn: configure("warn"),
-    error: configure("error")
-  }
+    error: configure("error"),
+  },
 };

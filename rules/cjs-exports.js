@@ -4,9 +4,4 @@ module.exports = [
     prev: "cjs-export",
     next: "*"
   },
-  {
-    blankLine: "never",
-    prev: "cjs-export",
-    next: "cjs-export"
-  }
 ];
