@@ -2,12 +2,16 @@ const cjsExports = require("./rules/cjs-exports");
 const variableDeclarations = require("./rules/variable-declarations");
 const cjsImports = require("./rules/cjs-imports");
 const functionDeclarations = require("./rules/function-declarations");
+const expressions = require('./rules/expressions');
+const returns = require('./rules/returns');
 
 const rules = [
   ...cjsExports,
   ...variableDeclarations,
   ...cjsImports,
   ...functionDeclarations,
+  ...expressions,
+  ...returns
 ];
 
 function configure(type) {
