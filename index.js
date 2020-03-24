@@ -17,10 +17,6 @@ function configure(type) {
       node: true,
     },
     rules: {
-      "padding-line-between-statements": [
-        type,
-        ...rules
-      ],
       "no-multiple-empty-lines": [
         "error",
         {
@@ -28,7 +24,11 @@ function configure(type) {
           maxBOF: 1,
           maxEOF: 0
         }
-      ]
+      ],
+      "padding-line-between-statements": [
+        type,
+        ...rules
+      ],
     }
   };
 }
