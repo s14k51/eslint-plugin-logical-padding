@@ -20,6 +20,14 @@ function configure(type) {
       "padding-line-between-statements": [
         type,
         ...rules
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          max: 1,
+          maxBOF: 1,
+          maxEOF: 0
+        }
       ]
     }
   };

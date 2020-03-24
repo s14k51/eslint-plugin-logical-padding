@@ -1,10 +1,22 @@
 # eslint-plugin-logical-padding
 
-Enforces padding between logical blocks of code. This plugin contains the [padding-line-between-statements](https://eslint.org/docs/rules/padding-line-between-statements) `eslint` rule.
+Enforces padding between logical blocks of code.
+
+# Installation
+
+```bash
+npm install --save-dev eslint-plugin-logical-padding
+```
+
+or 
+
+```bash
+yarn add -D eslint-plugin-logical-padding
+```
 
 # Usage
 
-In your `.eslintrc`, to report checks as errors
+In your `.eslintrc`, to report rules as errors
 
 ```json
 {
@@ -12,7 +24,7 @@ In your `.eslintrc`, to report checks as errors
 }
 ```
 
-or to report checks as warnings
+or to report rules as warnings
 
 ```json
 {
