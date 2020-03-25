@@ -5,7 +5,7 @@ module.exports = [
     next: "*"
   },
   {
-    blankLine: "never",
+    blankLine: "any",
     prev: "expression",
     next: "expression"
   },

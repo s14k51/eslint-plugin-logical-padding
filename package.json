@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-logical-padding",
-  "version": "1.2.0-0",
+  "version": "1.2.0-1",
   "description": "Enforces padding between logical blocks of code",
   "main": "index.js",
   "license": "MIT",

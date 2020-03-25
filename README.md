@@ -1,6 +1,6 @@
 # eslint-plugin-logical-padding
 
-Enforces padding between logical blocks of code.
+Enforces padding between logical blocks of code. Inspired by [rubystyle.guide](https://rubystyle.guide/#empty-lines-between-methods).
 
 # Installation
 
