@@ -1,4 +1,4 @@
-# eslint-plugin-logical-padding
+# [eslint-plugin-logical-padding](https://www.npmjs.com/package/eslint-plugin-logical-padding)
 
 Enforces padding between logical blocks of code. Inspired by [rubystyle.guide](https://rubystyle.guide/#empty-lines-between-methods).
 
