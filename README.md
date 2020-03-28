@@ -1,4 +1,9 @@
-# ALL VERSIONS OF THIS PLUGIN ARE DEPRECATED. CONSIDER MIGRATING TO THE LATEST VERSION OF [eslint-config-ruby](https://www.npmjs.com/package/eslint-config-ruby).
+# All versions of this eslint plugin are DEPRECATED.
+
+# Consider using the LATEST version of [eslint-config-ruby](https://www.npmjs.com/package/eslint-config-ruby).
+
+<br />
+<br />
 
 # eslint-plugin-logical-padding
 
