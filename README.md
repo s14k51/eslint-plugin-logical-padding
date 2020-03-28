@@ -1,4 +1,6 @@
-# [eslint-plugin-logical-padding](https://www.npmjs.com/package/eslint-plugin-logical-padding)
+# ALL VERSIONS OF THIS PLUGIN ARE DEPRECATED. CONSIDER MIGRATING TO THE LATEST VERSION OF [eslint-config-ruby](https://www.npmjs.com/package/eslint-config-ruby).
+
+# eslint-plugin-logical-padding
 
 Enforces padding between logical blocks of code. Inspired by [rubystyle.guide](https://rubystyle.guide/#empty-lines-between-methods).
 
